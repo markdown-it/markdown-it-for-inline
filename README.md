@@ -40,7 +40,7 @@ var md = require('markdown-it')()
 ```
 
 _Differences in browser._ If you load script directly into the page, without
-package system, module will add itself globally with name `markdownitForInline`.
+package system, module will add itself globally as `window.markdownitForInline`.
 
 
 __Example 2.__ Cut link prefixes
