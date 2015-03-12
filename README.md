@@ -69,7 +69,7 @@ var iterator = require('markdown-it-for-inline');
 
 var md = require('markdown-it')({ linkify: true })
             .use(iterator, 'url_new_win', 'link_open', function (tokens, idx) {
-              tokens[idx].target = "_blank";
+              tokens[idx].attrPush([ 'target', '_blank' ]);
             });
 ```
 
