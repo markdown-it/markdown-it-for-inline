@@ -23,5 +23,5 @@ module.exports = function for_inline_plugin(md, ruleName, tokenType, iteartor) {
     }
   }
 
-  md.core.ruler.push('ruleName', scan);
+  md.core.ruler.push(ruleName, scan);
 };
