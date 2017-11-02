@@ -1,7 +1,7 @@
 'use strict';
 
 
-module.exports = function for_inline_plugin(md, ruleName, tokenType, iteartor) {
+module.exports = function for_inline_plugin(md, ruleName, tokenType, iterator) {
 
   function scan(state) {
     var i, blkIdx, inlineTokens;
@@ -18,7 +18,7 @@ module.exports = function for_inline_plugin(md, ruleName, tokenType, iteartor) {
           continue;
         }
 
-        iteartor(inlineTokens, i);
+        iterator(inlineTokens, i);
       }
     }
   }
