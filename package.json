@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-for-inline",
-  "version": "0.1.1",
+  "version": "2.0.0",
   "description": "Inline tokens iterator for markdown-it markdown parser.",
   "keywords": [
     "markdown-it-plugin",
