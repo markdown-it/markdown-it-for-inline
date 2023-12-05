@@ -22,6 +22,11 @@
       "import": "./*"
     }
   },
+  "files": [
+    "index.mjs",
+    "lib/",
+    "dist/"
+  ],
   "scripts": {
     "lint": "eslint .",
     "build": "rollup -c",

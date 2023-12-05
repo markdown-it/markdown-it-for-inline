@@ -9,7 +9,7 @@ overrides:
     files: [ 'test/**' ]
     env: { mocha: true }
   -
-    files: [ 'lib/**' ]
+    files: [ 'lib/**', 'index.mjs' ]
     parserOptions: { ecmaVersion: 2015 }
 
 ignorePatterns:
