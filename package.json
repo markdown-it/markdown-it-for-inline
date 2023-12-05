@@ -14,7 +14,7 @@
   "module": "index.mjs",
   "exports": {
     ".": {
-      "require": "./build/index.cjs.js",
+      "require": "./dist/index.cjs.js",
       "import": "./index.mjs"
     },
     "./*": {
